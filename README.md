@@ -14,7 +14,6 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ### 🎲 Como compartilhar repositorio com o GitHub
  Pegar a url do tipo HTTPS no site da Github
  Abrir o VScode, abrir o terminal, selecionar o terminal do tipo Git Bash
-
 $ git init 
 $ git add . 
 $ git commit -m "nome do arquivo"

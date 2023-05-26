@@ -3,12 +3,12 @@ const palavras = ['Abacate','Abacaxi','Açaí','Acerola','Ameixa','Amora','Anan�
 const palavraSecreta = palavras[Math.floor(Math.random() * palavras.length)]; //math.radom ele gera um numero aleatorio entre 0 e 1, math.floar serve para arredondar para baixo e obter um indice calido dentro do array
 console.log('Bem-vindo ao jogo de adivinhação de palavras!');
 console.log('Adivinhe a fruta secreta.');
-var tentativas = 4; // correspondente ao numero de tenativas restantes que o user tera 
-var acertou = false;
+let tentativas = 4; // correspondente ao numero de tenativas restantes que o user tera 
+let acertou = false;
 
 while(tentativas > 0){
-    var palpite = readline('Digite seu Palpite:  ');
-    var userAcertou = verificarPalpite(palpite.toLocaleLowerCase());
+    let palpite = readline('Digite seu Palpite:  ');
+    let userAcertou = verificarPalpite(palpite.toLocaleLowerCase());
     console.log(userAcertou);
     if (userAcertou === 'Parabéns você acertou a fruta premiada'){
         acertou = true; 
