@@ -11,10 +11,9 @@ antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-### 🎲 Rodando (servidor)
-### Como compartilhar repositorio com o GitHub
-### Pegar a url do tipo HTTPS no site da Github
-### Abrir o VScode, abrir o terminal, selecionar o terminal do tipo Git Bash
+### 🎲 Como compartilhar repositorio com o GitHub
+ Pegar a url do tipo HTTPS no site da Github
+ Abrir o VScode, abrir o terminal, selecionar o terminal do tipo Git Bash
 
 $ git init 
 $ git add . 
