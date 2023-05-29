@@ -3,7 +3,7 @@
 <p align=center>Esse Readme tem como objetivo mostrar os pontos de dificuldade encontrados ao longo do projeto MegaLux que vão desde passo a passo de como realizar um procedimento ate descrever oque cada arquivo representa</p>
 
 <h4 align="center"> 
-	🚧  React Select 🚀 Em construção...  🚧
+	🚧  Em construção...  🚧
 </h4>
 
 ### Pré-requisitos para clonar o git
@@ -14,27 +14,30 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ### 🎲 Como compartilhar repositorio com o GitHub
  Pegar a url do tipo HTTPS no site da Github
  Abrir o VScode, abrir o terminal, selecionar o terminal do tipo Git Bash
+
+``` 
 $ git init 
 $ git add . 
 $ git commit -m "nome do arquivo"
 $ git branch -M main 
 $ git remote add origin (junto com o link do repositório) 
 $ git push -u origin main 
+```
 
 ### Para mandar as atualização para o GitHub siga as seguintes etapas
+```
 $ git status 
 $ git add . 
 $ git commit -m "mensagem do commit"
 $ git push origin main
+```
 
 
 
 
 
 
-
-
-
+🚀 
 
 
 
