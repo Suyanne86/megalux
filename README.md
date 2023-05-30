@@ -33,7 +33,7 @@ $ git push origin main
 ```
 
 <h2>🚀 API</h2>
-<p>As API's possuem um mecanismo chamado middleware que servem para fazer a chamada de outras tarefas/funções. Dentro de cada Middleware e preciso especificar as chamadas que serão realizadas dentro de um função que normalmente serão retornadas como ```req,resp,next``` veja um exemplo para ter uma base de como ele funciona </p>
+<p>As API's possuem um mecanismo chamado middleware que servem para fazer a chamada de outras tarefas/funções. Dentro de cada Middleware e preciso especificar as chamadas que serão realizadas dentro de um função que normalmente serão retornadas como <b>req,resp,next</b> veja um exemplo para ter uma base de como ele funciona </p>
 
 ```
 app.get('/tabela', function(req, resp, next ){  
@@ -48,7 +48,7 @@ app.get('/tabela', function(req, resp, next ){
    resp.send('Essa e minha resposta final....')
 })
 ```
-<p>Tenha em mente que *req* será a requisição a ser feita, *next* será para passar para o próximo bloco de comando,*resp* será a resposta ao final do percuso do middlehare. Veja no bloco a seguir um exemplo simples de middleware que faz uso de uma function em seu bloco de comando </p>
+<p>Tenha em mente que <b>req</b> será a requisição a ser feita, <b>next</b> será para passar para o próximo bloco de comando,<b>resp</b> será a resposta ao final do percuso do middlehare. Veja no bloco a seguir um exemplo simples de middleware que faz uso de uma <b>function</b> em seu bloco de comando </p>
 
 ```
 app.get('/tabela', function(req, resp){ 
@@ -78,7 +78,8 @@ app.get('/tabela', function(req, resp){
 
 
 🚀 
-
+☑🔘🔴🟠🟡🟢🔵🟣🟤⚫⚪🟥🟧🟨🟩🟦🟪🟫
+⬛⬜◼◻◾◽▪▫🔸🔹🔶🔷🔺🔻🔲🔳
 
 
 
