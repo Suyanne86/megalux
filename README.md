@@ -32,6 +32,46 @@ $ git commit -m "mensagem do commit"
 $ git push origin main
 ```
 
+<h2>🚀 API</h2>
+<p>As API's possuem um mecanismo chamado middleware que servem para fazer a chamada de outras tarefas/funções. Dentro de cada Middleware e preciso especificar as chamadas que serão realizadas dentro de um função que normalmente serão retornadas como ```req,resp,next``` veja um exemplo para ter uma base de como ele funciona </p>
+
+```
+app.get('/tabela', function(req, resp, next ){  
+   console.log('Primeiro eu passo por aqui....')
+	next()
+})
+app.get('/tabela', function(req, resp, next ){  
+   console.log('Depois eu passo por aqui....')
+	next()
+})
+app.get('/tabela', function(req, resp, next ){  
+   resp.send('Essa e minha resposta final....')
+})
+```
+<p>Tenha em mente que *req* será a requisição a ser feita, *next* será para passar para o próximo bloco de comando,*resp* será a resposta ao final do percuso do middlehare. Veja no bloco a seguir um exemplo simples de middleware que faz uso de uma function em seu bloco de comando </p>
+
+```
+app.get('/tabela', function(req, resp){ 
+    let num = 1
+    let tabela = '<table border = 1>'
+
+    for (let l = 0; l < req.tabela.linhas; l++) {
+        tabela += '<tr>'
+        for (let c = 0; c < req.tabela.colunas; c++) {
+            tabela += `<td>${num}</td>`
+            num ++
+        }
+        tabela += '</tr>'
+        
+    }
+    tabela += '</table>'
+    resp.send(tabela)
+})
+```
+
+
+
+
 
 
 

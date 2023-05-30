@@ -1,6 +1,1 @@
-{
-  "dependencies": {
-    "mssql": "^9.1.1",
-    "prompt-sync": "^4.2.0"
-  }
-}
+{"name":"node MSSQL connect","version":"1.0.0","description":"","main":"catalogoFilme.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1 "},"keywords":[],"author":"","license":"ISC","dependencies":{"express":"^4.18.2","msnodesqlv8":"^4.1.0","mssql":"^9.1.1","nodemon":"^2.0.22","prompt-sync":"^4.2.0"}}

@@ -1,13 +1,30 @@
-const apiKey = 'b5dc160b41d42e76fbb61b86e3d3978f';
-const movieId = 12345; // Substitua pelo ID do filme desejado
+// const sql = require('mssql/msnodesqlv8')
+// //data base configuration
 
-fetch(`catalogodefilmes934.com.br${movieId}?api_key=${apiKey}`)
-  .then(response => response.json())
-  .then(data => {
-    // Faça algo com os dados retornados, por exemplo:
-    console.log(data);
-  })
-  .catch(error => {
-    // Trate erros adequadamente
-    console.error('Erro:', error);
-  });
+// var config={
+//     user: '',
+//     password:'',
+//     database: 'testdb', //your database here 
+//     server: 'BRJ112J8MQ\\SQLEXPRESS',
+//     driver: 'msnodessqlv8',
+//     options: {
+//         trustedConnectuion:true
+//     }
+// }
+
+// //connect to databese
+// sql.connect(config,function(err){
+//     if(err){
+//         console.log(err);
+//     }
+//     //create the request object 
+//     var request = new sql.Request();
+//     //database query
+//     request.query('select * from empTable', function(err, recordSet){
+//         if(err){
+//             console.log(err)
+//         }else{
+//             console.log(recordSet)
+//         }
+//     });
+// });
