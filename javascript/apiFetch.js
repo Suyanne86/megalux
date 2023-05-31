@@ -1,1 +1,13 @@
-fetch('https://regres.in/api/users').then ((res) => console.log(res)) // Por padrão o fecth realiza um GET para passar outras requisições e necessario passar ao comando fetch
+// fetch('https://rickandmortyapi.com/api/character/182')
+// .then ((res) => {
+//     if(res.ok){
+//     res.json()
+//     }else{
+//         console.log('Erro')
+//     }
+// })
+// .then ((data) => console.log(data))
+// .catch((err)=> console.log(err))
+
+
+fetch('https://rickandmortyapi.com/api/character/182').then((res)=> res.json ()).then(data => console.log)

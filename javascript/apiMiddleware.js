@@ -25,4 +25,4 @@ app.get('/tabela', function(req, resp){
     resp.send(tabela)
 })
 
-app.listen(3000, () => console.log('Iniciou.....'));
+//app.listen(3000, () => console.log('Iniciou.....'));

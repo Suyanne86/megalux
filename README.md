@@ -23,7 +23,11 @@ $ git branch -M main
 $ git remote add origin (junto com o link do repositório) 
 $ git push -u origin main 
 ```
+### Para trocar master para main
 
+```
+$ git branch -M main
+```
 ### Para mandar as atualização para o GitHub siga as seguintes etapas
 ```
 $ git status 
@@ -68,6 +72,23 @@ app.get('/tabela', function(req, resp){
     resp.send(tabela)
 })
 ```
+<h3>Instalações Importantes para a API</h3>
+
+```
+$ npm i express body-parser cors morgan 
+```
+Nodemon para atualizações diretas na porta informada 'E importante acrecentar o -g para que o nodemon seja globalmente'
+
+```
+$ npm i nodemon -g
+```
+Criação de package.json pelo Console
+Para fazer a criação do package.json pelo console digite as informações a seguir para isso e necessario que você não possua o arquivo package já criado
+
+```
+$ npm init
+```
+
 
 
 
